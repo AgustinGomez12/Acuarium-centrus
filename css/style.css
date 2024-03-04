@@ -24,8 +24,12 @@ header svg {
   width: 3rem;
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  bottom: 5%;
   right: 5%;
+}
+header svg:hover {
+  background-color: rgba(107, 130, 172, 0.696);
+  border-radius: 10%;
 }
 header nav {
   height: 100%;
@@ -61,6 +65,9 @@ header ul {
 }
 header a {
   color: black;
+}
+header a:hover {
+  color: rgba(23, 210, 210, 0.701);
 }
 
 /*# sourceMappingURL=style.css.map */

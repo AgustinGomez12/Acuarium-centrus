@@ -27,9 +27,14 @@ header {
         width: 3rem;
         cursor: pointer;
         position: absolute;
-        top: 40%;
+        bottom: 5%;
         right:5%;
+        &:hover{
+        background-color: rgba(107, 130, 172, 0.696);
+        border-radius: 10%;
+        }
     }
+
 
     nav {
         height: 100%;
@@ -70,6 +75,9 @@ header {
 
     a {
       color: black;
+      &:hover {
+        color: rgba(23, 210, 210, 0.701);
+      }
     }
 
     
