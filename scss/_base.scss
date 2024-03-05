@@ -10,6 +10,14 @@
     }
 }
 
+h1 {
+    font-family: "letras-titulos-enlaces";
+}
+
+a {
+    font-family: "letras-titulos-enlaces";
+    color: black;
+}
 
 $colores-prinsipales:(
     principal:linear-gradient(to bottom,cornflowerblue,rgba(7, 7, 218, 0.848)),

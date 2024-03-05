@@ -10,6 +10,15 @@
   src: url(../fuentes-letras/Fjalla_One/FjallaOne-Regular.ttf);
 }
 
+h1 {
+  font-family: "letras-titulos-enlaces";
+}
+
+a {
+  font-family: "letras-titulos-enlaces";
+  color: black;
+}
+
 header {
   display: flex;
   background: linear-gradient(to bottom, cornflowerblue, rgba(7, 7, 218, 0.848));
@@ -103,6 +112,34 @@ header a:hover {
   header ul {
     gap: 9%;
   }
+}
+footer {
+  background: linear-gradient(to bottom, cornflowerblue, rgba(7, 7, 218, 0.848));
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  width: 100%;
+  height: 100%;
+}
+footer h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+footer ul {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8%;
+}
+footer div {
+  padding-top: 10%;
+}
+footer .sub-nav {
+  gap: 20%;
+  padding-bottom: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
