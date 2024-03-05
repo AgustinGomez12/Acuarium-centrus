@@ -122,6 +122,7 @@ footer {
   height: 100%;
 }
 footer h1 {
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   padding-bottom: 3%;
@@ -140,6 +141,49 @@ footer div {
 footer .sub-nav {
   gap: 20%;
   padding-bottom: 10%;
+}
+footer a {
+  color: rgb(0, 0, 0);
+}
+footer a:hover {
+  color: rgba(23, 210, 210, 0.468);
+}
+
+@media screen and (min-width: 540px) {
+  footer h1 {
+    font-size: 3rem;
+  }
+  footer ul {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 650px) {
+  footer ul {
+    gap: 20%;
+  }
+}
+@media screen and (min-width: 800px) {
+  footer ul {
+    font-size: 40px;
+  }
+  footer div {
+    padding-top: 5%;
+  }
+}
+@media screen and (min-width: 1040px) {
+  footer ul {
+    gap: 35%;
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  footer ul {
+    font-size: 3rem;
+    gap: 40%;
+  }
+  footer div {
+    padding-top: 3%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
