@@ -23,6 +23,11 @@ main {
     position: relative;
     background-size: 400% 400%;
     animation: girar 10s ease-in-out infinite;
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 10px 10px 10px;
+        transition: 1s;
+    }
    }
 
 
@@ -101,6 +106,8 @@ main {
 
 //formato pc monitor chico final//
 
+
+//formato pc monitor intermedio//
 @media screen and (min-width:1040px) {
     main {
         h2 {
@@ -113,6 +120,20 @@ main {
 
         p {
             font-size: 40px;
+        }
+
+        .tarjetas-inicio {
+            margin: 5%;
+        }
+    }
+}
+
+//formato pc monitor intermedio final//
+
+@media screen and (min-width:1276px) {
+    main {
+        .tarjetas-inicio {
+          padding: 2%;
         }
     }
 }

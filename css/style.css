@@ -231,6 +231,11 @@ main .tarjetas-inicio {
   background-size: 400% 400%;
   animation: girar 10s ease-in-out infinite;
 }
+main .tarjetas-inicio:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 10px;
+  transition: 1s;
+}
 main img {
   border-radius: 5%;
 }
@@ -287,6 +292,36 @@ main figure {
   main p {
     font-size: 40px;
   }
+  main .tarjetas-inicio {
+    margin: 5%;
+  }
+}
+@media screen and (min-width: 1276px) {
+  main .tarjetas-inicio {
+    padding: 2%;
+  }
+}
+.main-agua-fria section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-agua-fria img {
+  padding: 2%;
+}
+.main-agua-fria .clasificacion-agua-fria {
+  display: grid;
+}
+.main-agua-fria .clasificacion-agua-fria div {
+  margin-left: 3%;
+  background-color: rgba(255, 127, 80, 0.726);
+  border-radius: 5%;
+  padding: 1%;
+}
+.main-agua-fria .clasificacion-agua-fria h2 {
+  width: 100%;
+  padding-left: 8%;
+  margin-bottom: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
