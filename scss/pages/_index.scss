@@ -32,8 +32,81 @@ main {
     align-items: center;
     margin-bottom: 20%;
    }
-
    
+   figure {
+    display: flex;
+    justify-content: center;
+   }
+     
+}
 
-   
+//formato tablet//
+
+@media screen and (min-width:650px) {
+  main {
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    div {
+        margin-top: 5%;
+        
+    }
+
+    .tarjetas-inicio {
+        width: 70%;
+        margin: 2%;
+    }
+
+    p {
+        font-size: 20px;
+        padding-top: 5%;
+    }
+  }
+}
+
+//formato tablet final//
+
+//formato pc monitor chico//
+
+@media screen and (min-width:800px) {
+    main {
+         
+        h2 {
+           font-size: 2.5rem;
+           margin-top: 10%;
+           margin-bottom: 5%; 
+        }
+        
+        .portada-img {
+            width: 89%;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+//formato pc monitor chico final//
+
+@media screen and (min-width:1040px) {
+    main {
+        h2 {
+            font-size: 3rem;
+        }
+            
+        .portada-img {
+        width: 75%;
+        }
+
+        p {
+            font-size: 40px;
+        }
+    }
 }
