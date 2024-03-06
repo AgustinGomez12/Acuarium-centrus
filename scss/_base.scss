@@ -10,7 +10,13 @@
     }
 }
 
+
+
 h1 {
+    font-family: "letras-titulos-enlaces";
+}
+
+h2 {
     font-family: "letras-titulos-enlaces";
 }
 
@@ -23,3 +29,7 @@ $colores-prinsipales:(
     principal:linear-gradient(to bottom,cornflowerblue,rgba(7, 7, 218, 0.848)),
     suave:linear-gradient(to bottom,rgba(100, 148, 237, 0.537),rgba(7, 7, 218, 0.528))
 );
+
+img {
+    max-width: 100%;
+}

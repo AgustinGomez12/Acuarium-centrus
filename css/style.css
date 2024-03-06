@@ -14,9 +14,17 @@ h1 {
   font-family: "letras-titulos-enlaces";
 }
 
+h2 {
+  font-family: "letras-titulos-enlaces";
+}
+
 a {
   font-family: "letras-titulos-enlaces";
   color: black;
+}
+
+img {
+  max-width: 100%;
 }
 
 header {
@@ -117,7 +125,6 @@ footer {
   background: linear-gradient(to bottom, cornflowerblue, rgba(7, 7, 218, 0.848));
   display: flex;
   flex-direction: column;
-  margin-top: 4%;
   width: 100%;
   height: 100%;
 }
@@ -184,6 +191,29 @@ footer a:hover {
   footer div {
     padding-top: 3%;
   }
+}
+main {
+  background: linear-gradient(to bottom, cornflowerblue, rgba(7, 7, 218, 0.848));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main h2 {
+  margin-top: 20%;
+}
+main div {
+  width: 95%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+main img {
+  border-radius: 5%;
+}
+main nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */
