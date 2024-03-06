@@ -15,12 +15,16 @@ main {
    }
 
    .tarjetas-inicio {
-    background:linear-gradient(to top,rgb(60, 28, 221),rgba(146, 153, 44, 0.848));
+    background:linear-gradient( 90deg,rgb(60, 28, 221),rgba(146, 153, 44, 0.848),rgb(218, 58, 58),rgba(0, 213, 255, 0.838));
     padding: 3%;
     border-radius: 5%;
     width: 90%;
     height: 100%;
+    position: relative;
+    background-size: 400% 400%;
+    animation: girar 10s ease-in-out infinite;
    }
+
 
    img {
     border-radius: 5%;
@@ -37,6 +41,8 @@ main {
     display: flex;
     justify-content: center;
    }
+
+   
      
 }
 
