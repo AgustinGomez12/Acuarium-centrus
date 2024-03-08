@@ -1,34 +1,41 @@
-.main-agua-fria {
+.main-peces-troplicales {
     section {
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 
     img {
         padding: 2%;
     }
 
-
     h2 {
-        margin-bottom: 5%;
+        margin-bottom: 2%;
     }
+
 
     h4 {
         font-size: 3rem;
         display: none;
         margin-bottom: 5%;
     }
-    
+
     .info-abajo {
         margin: 3%;
         padding-bottom: 5%;
     }
 
-    .clasificacion-agua-fria {
+
+    .clasificacion-agua-tropical {
         display: grid;
         grid-template-columns: 1fr;
+
+        .info-abajo {
+            margin: 3%;
+            padding-bottom: 5%;
+        }
+
+
 
         div {
             margin-left: 3%;
@@ -89,13 +96,12 @@
         }
     }
 
-
 }
 
 //formato tablet//
 @media screen and (min-width:650px) {
-    .main-agua-fria {
-        .clasificacion-agua-fria {
+    .main-peces-troplicales {
+        .clasificacion-agua-tropical {
             grid-template-columns: 1fr 1fr;
             margin: 3%;
             gap: 20px;
@@ -105,8 +111,8 @@
             height: 100vh;
             overflow: scroll;
             scrollbar-width: none;
-            
-            
+
+
 
             &:hover {
                 background: linear-gradient(90deg, red, blue, pink);
@@ -134,23 +140,24 @@
     }
 }
 
-//formato tablet final//
+//formato tablet fina//
+
 
 //monitor chico//
 @media screen and (min-width:800px) {
-    .main-agua-fria {
+    .main-peces-troplicales {
         figure {
             margin: 5%;
         }
     }
 }
-//monitor chico final//
 
+//monitor chico final//
 
 //monitor intermedio//
 @media screen and (min-width:1040px) {
-    .main-agua-fria {
-        .clasificacion-agua-fria {
+    .main-peces-troplicales {
+        .clasificacion-agua-tropical {
             margin: 5%;
         }
 
@@ -159,25 +166,25 @@
         }
     }
 }
-//monitor intermedio final//
 
-//monitor grande//
+//monitor intermedio//
+
+
 @media screen and (min-width:1200px) {
-    .main-agua-fria {
+    .main-peces-troplicales {
         figure {
             margin: 10%;
         }
 
-        .clasificacion-agua-fria {
+        .clasificacion-agua-tropical {
 
             grid-template-columns: 1fr 1fr 1fr;
-            
-            
+
+
             div {
-               padding: 3%;
+                padding: 3%;
             }
-            
+
         }
     }
 }
-//monitor grande final//
