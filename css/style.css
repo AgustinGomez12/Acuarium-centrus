@@ -647,5 +647,74 @@ main figure {
     width: 200vh;
   }
 }
+.main-plantas {
+  display: flex;
+  justify-content: center;
+}
+.main-plantas .plantas-acuario {
+  background: linear-gradient(to bottom, rgba(0, 128, 0, 0.57), rgba(43, 43, 210, 0.646));
+  padding: 5%;
+  border-radius: 10px;
+}
+.main-plantas .plantas-acuario p {
+  margin-top: 10px;
+}
+.main-plantas .variedades-de-plantas {
+  background-color: antiquewhite;
+  padding: 5%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-plantas .variedades-de-plantas h2 {
+  margin-bottom: 5%;
+}
+.main-plantas .variedades-de-plantas p {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 650px) {
+  .main-plantas .plantas-acuario {
+    display: flex;
+    gap: 20px;
+  }
+  .main-plantas .variedades-de-plantas {
+    flex-direction: row;
+    position: relative;
+    gap: 4px;
+  }
+  .main-plantas .variedades-de-plantas h2 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+  }
+  .main-plantas .variedades-de-plantas img {
+    width: 200vh;
+    margin: 1%;
+  }
+  .main-plantas .variedades-de-plantas p {
+    margin: 10px;
+  }
+}
+@media screen and (min-width: 1060px) {
+  .main-plantas .variedades-de-plantas img {
+    width: 400vh;
+    margin: 1%;
+  }
+  .main-plantas .variedades-de-plantas h2 {
+    font-size: 3rem;
+  }
+  .main-plantas .variedades-de-plantas p {
+    font-size: 2rem;
+  }
+  .main-plantas .plantas-acuario {
+    padding: 3%;
+  }
+  .main-plantas .plantas-acuario img {
+    width: 600vh;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
